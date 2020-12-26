@@ -1,0 +1,30 @@
+package Class18;
+
+public class Employee {
+    int emID;
+    double salary;
+    static String CEO;
+    //Create a Class called Employee:
+    // Create three  variables  empID , salary and set the CEO to “Sumair”
+    // Create two objects of the class Employee
+    // Set the value of eID, salary for each of the objects
+    // Print out the eID , salary and  CEO for each of the objects
+    public static void main(String[] args) {
+        Employee employee1=new Employee();
+        employee1.emID=123;
+        employee1.salary=10000;
+        Employee.CEO="Sumair";
+        System.out.println(employee1.emID);
+        System.out.println(employee1.salary);
+        System.out.println(CEO);
+
+        Employee employee2=new Employee();
+        employee2.emID=12345;
+        employee2.salary=96000;
+
+        System.out.println(employee2.emID);
+        System.out.println(employee2.salary);
+        System.out.println(CEO);
+}
+}
+
